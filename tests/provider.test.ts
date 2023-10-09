@@ -4,7 +4,7 @@ describe('Pact Verification', () => {
     it('verifies the provider', async () => {
         const options = {
             provider: 'Service-B',
-            providerBaseUrl: 'http://localhost:4321',
+            providerBaseUrl: 'http://127.0.0.1:4321',
             disableSSLVerification: true,
             pactBroker: 'http://Pact_Broker:9292',
             pactUrls: [
